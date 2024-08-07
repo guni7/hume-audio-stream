@@ -1,0 +1,67 @@
+# Xcode
+##
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+*.xcuserstate
+
+# CocoaPods
+##
+Pods/
+
+# Swift Package Manager
+##
+.build/
+
+# fastlane
+##
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+##
+iOSInjectionProject/
+
+# OS generated files
+##
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Obj-C/Swift specific
+##
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+##
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+##
+Packages/
+Package.pins
+Package.resolved
+
+# User-specific files
+##
+xcuserdata/
+
+# Other
+##
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.log
+.idea/
